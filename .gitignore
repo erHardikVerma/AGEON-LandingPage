@@ -1,6 +1,9 @@
 # Design source files (too large for GitHub)
 *.psd
 
+# Local utility scripts
+push.bat
+
 # Standalone logo files (already in the background JPG)
 Header Logo.png
 Footer Logo.png
