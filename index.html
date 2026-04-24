@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGEON - Smart-Ageing & Longevity Platform</title>
+    <link rel="stylesheet" href="style.css?v=5">
+</head>
+<body>
+
+    <div class="landing-container">
+        <img src="Ageon Landing Page.jpg" alt="Ageon Landing Page" class="bg-image">
+
+        <!-- Hero Section Interactivity -->
+        <a href="javascript:void(0)" class="overlay-element btn explore-btn" title="Explore Franchise" onclick="scrollToForm()"></a>
+        <a href="https://drive.google.com/uc?export=download&id=1SBYNVXOGFMia0ffHr0QPi7tqzaguw_sw" class="overlay-element btn download-btn" title="Download Deck" target="_blank" rel="noopener noreferrer"></a>
+
+        <!-- Hero Form -->
+        <form class="hero-form" onsubmit="event.preventDefault(); alert('Form submitted!');">
+            <input type="text" name="fullName" id="nameInput" class="overlay-element input name-input" required>
+            <input type="tel" name="phoneNo" class="overlay-element input phone-input" required>
+            <input type="email" name="emailId" class="overlay-element input email-input" required>
+            <button type="submit" class="overlay-element btn hero-submit-btn" title="Enquire Now"></button>
+        </form>
+
+        <!-- Mid-Page Call-To-Action Buttons -->
+        <a href="javascript:void(0)" class="overlay-element btn enquire-btn-1" title="Enquire Now" onclick="scrollToForm()"></a>
+        <a href="javascript:void(0)" class="overlay-element btn enquire-btn-2" title="Enquire Now" onclick="scrollToForm()"></a>
+        <a href="javascript:void(0)" class="overlay-element btn enquire-btn-3" title="Enquire Now" onclick="scrollToForm()"></a>
+
+        <!-- Footer Call-To-Action Buttons -->
+        <a href="javascript:void(0)" class="overlay-element btn footer-apply-btn" title="Apply for Franchise" onclick="scrollToForm()"></a>
+        <a href="javascript:void(0)" class="overlay-element btn footer-schedule-btn" title="Schedule a Call" onclick="scrollToForm()"></a>
+    </div>
+
+    <!-- Utility script to help find coordinates -->
+    <script src="script.js"></script>
+</body>
+</html>

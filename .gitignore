@@ -1,0 +1,21 @@
+# Design source files (too large for GitHub)
+*.psd
+
+# Standalone logo files (already in the background JPG)
+Header Logo.png
+Footer Logo.png
+
+# PDF deck (hosted on Google Drive, not needed in repo)
+*.pdf
+
+# OS generated files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
