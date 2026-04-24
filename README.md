@@ -2,6 +2,8 @@
 
 A franchise landing page for **AGEON — India's Smart-Ageing & Longevity Platform**, powered by EBG Group.
 
+🔗 **Live Site:** [https://ageon-landing-page.vercel.app](https://ageon-landing-page.vercel.app/)
+
 ## Approach
 
 This landing page uses an **image-overlay technique** — the entire design is a single full-width background image (`Ageon Landing Page.jpg`) with invisible interactive elements (buttons, form fields) positioned on top using CSS absolute positioning with percentage-based coordinates.
