@@ -16,12 +16,16 @@
         <a href="https://drive.google.com/uc?export=download&id=1SBYNVXOGFMia0ffHr0QPi7tqzaguw_sw" class="overlay-element btn download-btn" title="Download Deck" target="_blank" rel="noopener noreferrer"></a>
 
         <!-- Hero Form -->
+        <div id="formHighlight" class="form-highlight"></div>
         <form class="hero-form" onsubmit="event.preventDefault(); alert('Form submitted!');">
             <input type="text" name="fullName" id="nameInput" class="overlay-element input name-input" required>
             <input type="tel" name="phoneNo" class="overlay-element input phone-input" required>
             <input type="email" name="emailId" class="overlay-element input email-input" required>
             <button type="submit" class="overlay-element btn hero-submit-btn" title="Enquire Now"></button>
         </form>
+
+        <!-- Schedule A Call button in Hero area -->
+        <a href="javascript:void(0)" class="hero-schedule-btn" onclick="scrollToForm()"><img src="whatsapp logo.png" alt="WhatsApp" class="wa-icon">SCHEDULE A CALL</a>
 
         <!-- Mid-Page Call-To-Action Buttons -->
         <a href="javascript:void(0)" class="overlay-element btn enquire-btn-1" title="Enquire Now" onclick="scrollToForm()"></a>
@@ -30,7 +34,7 @@
 
         <!-- Footer Call-To-Action Buttons -->
         <a href="javascript:void(0)" class="overlay-element btn footer-apply-btn" title="Apply for Franchise" onclick="scrollToForm()"></a>
-        <a href="javascript:void(0)" class="overlay-element btn footer-schedule-btn" title="Schedule a Call" onclick="scrollToForm()"></a>
+        <a href="javascript:void(0)" class="overlay-element btn footer-schedule-btn" title="Schedule a Call" onclick="scrollToSchedule()"></a>
     </div>
 
     <!-- Utility script to help find coordinates -->
